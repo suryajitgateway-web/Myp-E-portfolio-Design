@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MYP Design Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="brand-mark">D</span><div><strong>MYP Design</strong><small>Student Portfolio</small></div></div>
+  <button class="menu-btn" onclick="toggleNav()">☰</button>
+  <nav id="nav">
+    <a href="#home">Overview</a>
+    <a href="#criterion-a">Criterion A</a>
+    <a href="#criterion-b">Criterion B</a>
+    <a href="#criterion-c">Criterion C</a>
+    <a href="#criterion-d">Criterion D</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="eyebrow">MYP DESIGN • DIGITAL PORTFOLIO</p>
+    <h1>Design with purpose.<br><span>Show your thinking.</span></h1>
+    <p class="lead">A student-friendly space to showcase design work, criterion strands, task-specific clarification, evidence and reflection.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#criteria">Explore criteria →</a>
+      <a class="btn secondary" href="#concepts">View conceptual learning</a>
+    </div>
+  </div>
+  <div class="profile-card">
+    <div class="avatar">S</div>
+    <h2>Student Name</h2>
+    <p>MYP Design • Year 3/4</p>
+    <div class="profile-grid">
+      <div><b>School</b><span>Your School</span></div>
+      <div><b>Unit</b><span>Design for Change</span></div>
+      <div><b>Global Context</b><span>Globalization & Sustainability</span></div>
+      <div><b>Statement of Inquiry</b><span>Products communicate ideas and can improve people's experiences.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="criteria" class="section">
+  <div class="section-heading">
+    <div><p class="eyebrow">THE DESIGN CYCLE</p><h2>Four criteria. One design journey.</h2></div>
+    <p>Follow the process from investigating a problem to evaluating the final solution.</p>
+  </div>
+  <div class="criterion-grid">
+    <a class="criterion-card a" href="#criterion-a"><span>A</span><div><h3>Inquiring & Analysing</h3><p>Understand the problem, research users and develop a design brief.</p></div><b>→</b></a>
+    <a class="criterion-card b" href="#criterion-b"><span>B</span><div><h3>Developing Ideas</h3><p>Generate, explain and select realistic design ideas.</p></div><b>→</b></a>
+    <a class="criterion-card c" href="#criterion-c"><span>C</span><div><h3>Creating the Solution</h3><p>Plan, build and document the solution using appropriate skills.</p></div><b>→</b></a>
+    <a class="criterion-card d" href="#criterion-d"><span>D</span><div><h3>Evaluating</h3><p>Test the solution, analyse results and suggest improvements.</p></div><b>→</b></a>
+  </div>
+</section>
+
+<section id="concepts" class="section concept-section">
+  <div class="section-heading"><div><p class="eyebrow">CONCEPTUAL LEARNING</p><h2>Think beyond the product.</h2></div>
+  <p>Use concepts to explain <em>why</em> your design decisions matter.</p></div>
+  <div class="concept-grid">
+    <article><span>01</span><h3>Form</h3><p>What does the solution look and feel like? How does its structure affect its purpose?</p></article>
+    <article><span>02</span><h3>Function</h3><p>What is the solution designed to do, and how effectively does it do it?</p></article>
+    <article><span>03</span><h3>Innovation</h3><p>What makes the idea useful, different or better for the intended user?</p></article>
+    <article><span>04</span><h3>Sustainability</h3><p>How can the solution reduce negative impacts and remain useful over time?</p></article>
+  </div>
+</section>
+
+<!-- Criterion template sections -->
+<section id="criterion-a" class="criterion-page">
+  <div class="criterion-header a"><div class="letter">A</div><div><p class="eyebrow">CRITERION A</p><h2>Inquiring & Analysing</h2><p>Investigate the problem before jumping to a solution.</p></div></div>
+  <div class="content-grid">
+    <div class="main-content">
+      <div class="panel"><h3>Strand 1 — Explain & justify the need</h3><div class="tsc"><b>Task-specific clarification</b><p>Clearly explain the problem, who is affected, why it matters and what evidence proves the need.</p></div><div class="evidence"><h4>Student evidence</h4><p class="placeholder">📌 Add your problem statement, photos, observations or initial research here.</p></div></div>
+      <div class="panel"><h3>Strand 2 — Identify & prioritize research</h3><div class="tsc"><b>Task-specific clarification</b><p>List primary and secondary research questions. Explain which information is most important and why.</p></div><div class="evidence"><h4>Student evidence</h4><p class="placeholder">📌 Add survey results, interview notes, websites, articles or research tables.</p></div></div>
+      <div class="panel"><h3>Strand 3 — Analyse existing products</h3><div class="tsc"><b>Task-specific clarification</b><p>Compare relevant existing products and identify features, strengths, weaknesses and useful inspiration.</p></div><div class="evidence"><h4>Student evidence</h4><p class="placeholder">📌 Add your product analysis, annotated images or comparison table.</p></div></div>
+      <div class="panel"><h3>Strand 4 — Develop a design brief</h3><div class="tsc"><b>Task-specific clarification</b><p>Summarize the problem, target user, context and intended direction of your solution.</p></div><div class="evidence"><h4>Student evidence</h4><p class="placeholder">📌 Add your final design brief here.</p></div></div>
+    </div>
+    <aside class="sidebar"><h3>My learning</h3><label>Concept connection</label><textarea placeholder="Which concept did I explore? Why?"></textarea><label>Reflection</label><textarea placeholder="What did I learn from investigating?"></textarea><label>Evidence checklist</label><ul class="checklist"><li>Problem identified</li><li>Research completed</li><li>Existing products analysed</li><li>Design brief created</li></ul></aside>
+  </div>
+</section>
+
+<section id="criterion-b" class="criterion-page">
+  <div class="criterion-header b"><div class="letter">B</div><div><p class="eyebrow">CRITERION B</p><h2>Developing Ideas</h2><p>Turn research into possible solutions and make justified choices.</p></div></div>
+  <div class="content-grid">
+    <div class="main-content">
+      <div class="panel"><h3>Strand 1 — Develop design specifications</h3><div class="tsc"><b>Task-specific clarification</b><p>Create measurable criteria that your final solution should meet, based on research and user needs.</p></div><div class="evidence"><h4>Student evidence</h4><p class="placeholder">📌 Add your design specification table and success criteria.</p></div></div>
+      <div class="panel"><h3>Strand 2 — Develop alternative ideas</h3><div class="tsc"><b>Task-specific clarification</b><p>Generate several different ideas and communicate them clearly using sketches, labels, annotations or models.</p></div><div class="evidence"><h4>Student evidence</h4><p class="placeholder">📌 Add sketches, mind maps, annotations or alternative concepts.</p></div></div>
+      <div class="panel"><h3>Strand 3 — Present the chosen design</h3><div class="tsc"><b>Task-specific clarification</b><p>Present the chosen idea in enough detail for another person to understand how it will work.</p></div><div class="evidence"><h4>Student evidence</h4><p class="placeholder">📌 Add your final annotated design, dimensions, materials and key features.</p></div></div>
+      <div class="panel"><h3>Strand 4 — Develop planning drawings</h3><div class="tsc"><b>Task-specific clarification</b><p>Produce accurate planning drawings or diagrams that communicate how the solution can be made.</p></div><div class="evidence"><h4>Student evidence</h4><p class="placeholder">📌 Add technical drawings, exploded diagrams or CAD screenshots.</p></div></div>
+    </div>
+    <aside class="sidebar"><h3>Designer thinking</h3><label>Why did I choose this idea?</label><textarea placeholder="Explain your decision using evidence..."></textarea><label>Concept connection</label><textarea placeholder="Form, function, innovation, sustainability..."></textarea></aside>
+  </div>
+</section>
+
+<section id="criterion-c" class="criterion-page">
+  <div class="criterion-header c"><div class="letter">C</div><div><p class="eyebrow">CRITERION C</p><h2>Creating the Solution</h2><p>Plan, build and document the solution carefully.</p></div></div>
+  <div class="content-grid">
+    <div class="main-content">
+      <div class="panel"><h3>Strand 1 — Construct a logical plan</h3><div class="tsc"><b>Task-specific clarification</b><p>Create a sequence of steps, identify resources and include safety or time considerations where relevant.</p></div><div class="evidence"><h4>Student evidence</h4><p class="placeholder">📌 Add your production plan, timeline, materials list or workflow.</p></div></div>
+      <div class="panel"><h3>Strand 2 — Demonstrate technical skills</h3><div class="tsc"><b>Task-specific clarification</b><p>Show appropriate skills while creating the solution. Explain important techniques and decisions.</p></div><div class="evidence"><h4>Student evidence</h4><p class="placeholder">📌 Add process photos, screenshots, code, making techniques or skill demonstrations.</p></div></div>
+      <div class="panel"><h3>Strand 3 — Follow the plan</h3><div class="tsc"><b>Task-specific clarification</b><p>Use your plan effectively while making the solution and document changes when they are necessary.</p></div><div class="evidence"><h4>Student evidence</h4><p class="placeholder">📌 Add progress documentation and explain any changes from the original plan.</p></div></div>
+      <div class="panel"><h3>Strand 4 — Demonstrate quality</h3><div class="tsc"><b>Task-specific clarification</b><p>Show that the finished solution works and is presented with appropriate quality for the target user.</p></div><div class="evidence"><h4>Student evidence</h4><p class="placeholder">📌 Add photos/video link of your completed product or working prototype.</p></div></div>
+    </div>
+    <aside class="sidebar"><h3>Making reflection</h3><label>What changed?</label><textarea placeholder="Describe changes made during creation..."></textarea><label>What skill improved?</label><textarea placeholder="Explain a technical skill you developed..."></textarea></aside>
+  </div>
+</section>
+
+<section id="criterion-d" class="criterion-page">
+  <div class="criterion-header d"><div class="letter">D</div><div><p class="eyebrow">CRITERION D</p><h2>Evaluating</h2><p>Test the solution, use evidence and think about the next version.</p></div></div>
+  <div class="content-grid">
+    <div class="main-content">
+      <div class="panel"><h3>Strand 1 — Design testing methods</h3><div class="tsc"><b>Task-specific clarification</b><p>Explain how you will test the solution fairly and what evidence will show whether it meets the specifications.</p></div><div class="evidence"><h4>Student evidence</h4><p class="placeholder">📌 Add your testing plan, test users, questions and success measures.</p></div></div>
+      <div class="panel"><h3>Strand 2 — Evaluate against specifications</h3><div class="tsc"><b>Task-specific clarification</b><p>Use test results to judge each design specification and support conclusions with evidence.</p></div><div class="evidence"><h4>Student evidence</h4><p class="placeholder">📌 Add test results, user feedback, data and your evaluation table.</p></div></div>
+      <div class="panel"><h3>Strand 3 — Explain impact</h3><div class="tsc"><b>Task-specific clarification</b><p>Explain how successfully the solution addresses the original problem and affects the target user or context.</p></div><div class="evidence"><h4>Student evidence</h4><p class="placeholder">📌 Add your impact analysis and evidence from users or the community.</p></div></div>
+      <div class="panel"><h3>Strand 4 — Suggest improvements</h3><div class="tsc"><b>Task-specific clarification</b><p>Identify realistic improvements and explain how they would make the solution more effective.</p></div><div class="evidence"><h4>Student evidence</h4><p class="placeholder">📌 Add future improvements, next steps or a redesigned concept.</p></div></div>
+    </div>
+    <aside class="sidebar"><h3>Final reflection</h3><label>Biggest learning</label><textarea placeholder="What is the most important thing I learned?"></textarea><label>If I had more time...</label><textarea placeholder="What would I improve and why?"></textarea></aside>
+  </div>
+</section>
+
+<section class="footer-cta">
+  <p class="eyebrow">YOUR DESIGN STORY</p>
+  <h2>Investigate → Imagine → Create → Evaluate</h2>
+  <p>Keep the evidence, explain the thinking, and let your design journey speak for itself.</p>
+</section>
+</main>
+<footer>Made as a free MYP Design portfolio template • Edit the text, colours and evidence to make it yours.</footer>
+<script src="script.js"></script>
+</body>
+</html>
